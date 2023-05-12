@@ -1,0 +1,26 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/foliage.shader_c"
+
+	//---- Rendering ----
+	F_ALPHA_TEST 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material ----
+	g_flTintColor "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion "maps/sponza/materials/vase_round_plants/vase_round_plants_ao.tiff"
+	TextureColor "maps/sponza/materials/Vase_Round_Plants/Vase_Round_Plants_Diffuse.tif"
+	TextureMetalness "materials/default/default_metal.tga"
+	TextureNormal "maps/sponza/materials/vase_round_plants/vase_round_plants_normal.tiff"
+	TextureRoughness "maps/sponza/materials/vase_round_plants/vase_round_plants_rough.tif"
+	TextureTintMask "materials/default/default.tga"
+	TextureTranslucency "maps/sponza/materials/Vase_Round_Plants/Vase_Round_Plants_Diffuse_trans.png"
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	g_flAntiAliasedEdgeStrength "1.000"
+}

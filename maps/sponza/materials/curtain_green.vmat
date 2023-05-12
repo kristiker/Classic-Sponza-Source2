@@ -1,0 +1,40 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/simple.shader_c"
+
+	//---- PBR ----
+	F_AMBIENT_OCCLUSION_TEXTURE 1
+	F_METALNESS_TEXTURE 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "maps/sponza/materials/fabrics/fabric_curtain_ao.tiff"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "maps/sponza/materials/fabrics/fabric_curtain_diffuse_green.tif"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Metalness ----
+	TextureMetalness "maps/sponza/materials/fabrics/fabric_curtain_metallic.tif"
+
+	//---- Normal ----
+	TextureNormal "maps/sponza/materials/fabrics/fabric_curtain_normal.tiff"
+
+	//---- Roughness ----
+	TextureRoughness "maps/sponza/materials/fabrics/fabric_curtain_rough.tif"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

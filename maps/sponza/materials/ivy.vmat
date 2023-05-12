@@ -1,0 +1,26 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/foliage.shader_c"
+
+	//---- Rendering ----
+	F_ALPHA_TEST 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material ----
+	g_flTintColor "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureColor "maps/sponza/materials/ivy/ivy_diffuse.tif"
+	TextureMetalness "materials/default/default_metal.tga"
+	TextureNormal "maps/sponza/materials/ivy/ivy_normal.tiff"
+	TextureRoughness "maps/sponza/materials/ivy/ivy_rough.tif"
+	TextureTintMask "materials/default/default.tga"
+	TextureTranslucency "maps/sponza/materials/ivy/ivy_diffuse_trans.png"
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	g_flAntiAliasedEdgeStrength "1.000"
+}

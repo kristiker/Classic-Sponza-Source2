@@ -1,0 +1,52 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/complex.shader_c"
+
+	//---- PBR ----
+	F_SPECULAR 1
+
+	//---- Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "maps/sponza/materials/vase_hanging_chain/vase_hanging_chain_ao.tiff"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "maps/sponza/materials/Vase_Hanging_Chain/Vase_Hanging_Chain_Diffuse.tif"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Metalness ----
+	g_flMetalness "0.955"
+
+	//---- Normal ----
+	TextureNormal "maps/sponza/materials/Vase_Hanging_Chain/Vase_Hanging_Chain_Normal.tif"
+
+	//---- Roughness ----
+	TextureRoughness "maps/sponza/materials/vase_hanging_chain/vase_hanging_chain_rough.tif"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	g_flAntiAliasedEdgeStrength "1.000"
+	TextureTranslucency "maps/sponza/materials/vase_hanging_chain/vase_hanging_chain_diffuse_trans.png"
+}

@@ -1,0 +1,604 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "part_by_part"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "base"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Roof",
+										"Support_Roof",
+										"Support_Walls",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "curtains"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Fabric_Curtain_Red_00",
+										"Fabric_Curtain_Green_00",
+										"Fabric_Curtain_Blue_01",
+										"Fabric_Curtain_Green_02",
+										"Fabric_Curtain_Red_02",
+										"Fabric_Curtain_Blue_02",
+										"Fabric_Curtain_Green_01",
+										"Fabric_Curtain_Red_03",
+										"Fabric_Curtain_Red_01",
+										"Fabric_Curtain_Blue_00",
+										"Fabric_Round_Green_03",
+										"Fabric_Round_Red_00",
+										"Fabric_Round_Blue_01",
+										"Fabric_Round_Green_02",
+										"Fabric_Round_Green_00",
+										"Fabric_Round_Red_01",
+										"Fabric_Round_Blue_00",
+										"Fabric_Round_Green_01",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "arch"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Arch_E",
+										"Arch_E001",
+										"Arch_A",
+										"Arch_A001",
+										"Arch_A002",
+										"Arch_A003",
+										"Arch_A004",
+										"Arch_A005",
+										"Arch_A006",
+										"Arch_A007",
+										"Arch_A008",
+										"Arch_B",
+										"Arch_B001",
+										"Arch_B002",
+										"Arch_B003",
+										"Arch_B004",
+										"Arch_B005",
+										"Arch_B006",
+										"Arch_B007",
+										"Arch_B008",
+										"Arch_B009",
+										"Arch_B010",
+										"Arch_C",
+										"Arch_C001",
+										"Arch_D",
+										"Arch_D001",
+										"Arch_F",
+										"Arch_G",
+										"Arch_G001",
+										"Arch_H",
+										"Arch_H001",
+										"Arch_A_Filling",
+										"Arch_A_Filling001",
+										"Arch_A_Filling002",
+										"Arch_A_Filling003",
+										"Arch_A_Filling004",
+										"Arch_A_Filling005",
+										"Arch_A_Filling006",
+										"Arch_A_Filling007",
+										"Arch_A_Filling008",
+										"Ceiling_Arches",
+										"Ceiling_Upper",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "column"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Column_A_Corner",
+										"Column_A",
+										"Column_A_Corner001",
+										"Column_A_Corner002",
+										"Column_A_Corner003",
+										"Column_A001",
+										"Column_A002",
+										"Column_A003",
+										"Column_A004",
+										"Column_A005",
+										"Column_A006",
+										"Column_A007",
+										"Column_B_Small",
+										"Column_B_Small001",
+										"Column_B",
+										"Column_B001",
+										"Column_B002",
+										"Column_B003",
+										"Column_B004",
+										"Column_B005",
+										"Column_B006",
+										"Column_B007",
+										"Column_B008",
+										"Column_B009",
+										"Column_C_Corner",
+										"Column_C",
+										"Column_C_Corner001",
+										"Column_C_Corner002",
+										"Column_C_Corner003",
+										"Column_C001",
+										"Column_C002",
+										"Column_C003",
+										"Column_C004",
+										"Column_C005",
+										"Column_C006",
+										"Column_C007",
+										"Column_C_Trim_Corner",
+										"Column_C_Trim_Large",
+										"Column_C_Trim_Medium",
+										"Column_C_Trim_Corner001",
+										"Column_C_Trim_Corner002",
+										"Column_C_Trim_Corner003",
+										"Column_C_Trim_Corner004",
+										"Column_C_Trim_Corner005",
+										"Column_C_Trim_Corner006",
+										"Column_C_Trim_Corner007",
+										"Column_C_Trim_Large001",
+										"Column_C_Trim_Large002",
+										"Column_C_Trim_Large003",
+										"Column_C_Trim_Large004",
+										"Column_C_Trim_Large005",
+										"Column_C_Trim_Large006",
+										"Column_C_Trim_Large007",
+										"Column_C_Trim_Large008",
+										"Column_C_Trim_Large009",
+										"Column_C_Trim_Large010",
+										"Column_C_Trim_Large011",
+										"Column_C_Trim_Large012",
+										"Column_C_Trim_Large013",
+										"Column_C_Trim_Large014",
+										"Column_C_Trim_Large015",
+										"Column_C_Trim_Medium001",
+										"Column_C_Trim_Medium002",
+										"Column_C_Trim_Medium003",
+										"Column_C_Trim_Medium004",
+										"Column_C_Trim_Medium005",
+										"Column_C_Trim_Medium006",
+										"Column_C_Trim_Medium007",
+										"Column_C_Trim_Medium008",
+										"Column_C_Trim_Medium009",
+										"Column_C_Trim_Medium010",
+										"Column_C_Trim_Medium011",
+										"Column_C_Trim_Medium012",
+										"Column_C_Trim_Medium013",
+										"Column_C_Trim_Medium014",
+										"Column_C_Trim_Medium015",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "flagpole"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Flagpole_A",
+										"Flagpole_A001",
+										"Flagpole_A002",
+										"Flagpole_A003",
+										"Flagpole_A004",
+										"Flagpole_A005",
+										"Flagpole_A006",
+										"Flagpole_A007",
+										"Flagpole_B",
+										"Flagpole_B001",
+										"Flagpole_B002",
+										"Flagpole_B003",
+										"Flagpole_B004",
+										"Flagpole_B005",
+										"Flagpole_B006",
+										"Flagpole_B007",
+										"Flagpole_B008",
+										"Flagpole_B009",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "vase"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Vase_Hanging",
+										"Vase_Hanging001",
+										"Vase_Hanging002",
+										"Vase_Hanging003",
+										"Vase_Hanging_Chain",
+										"Vase_Hanging_Chain001",
+										"Vase_Hanging_Chain002",
+										"Vase_Hanging_Chain003",
+										"Vase_Octagonal",
+										"Vase_Octagonal001",
+										"Vase_Octagonal002",
+										"Vase_Octagonal003",
+										"Vase_Round",
+										"Vase_Round001",
+										"Vase_Round002",
+										"Vase_Round003",
+										"Vase_Round004",
+										"Vase_Round005",
+										"Vase_Round006",
+										"Vase_Round007",
+										"Vase_Round_Plants_A",
+										"Vase_Round_Plants_A001",
+										"Vase_Round_Plants_A002",
+										"Vase_Round_Plants_A003",
+										"Vase_Round_Plants_B001",
+										"Vase_Round_Plants_B002",
+										"Vase_Round_Plants_B003",
+										"Vase_Round_Plants_B",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "ivy"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Ivy_A",
+										"Ivy_B",
+										"Ivy_C",
+										"Ivy_D",
+										"Ivy_E",
+										"Ivy_F",
+										"Ivy_G",
+										"Ivy_H",
+										"Ivy_I",
+										"Ivy_J",
+										"Ivy_K",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "remaining"
+								filename = "maps/Sponza_Modular.FBX"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"Lion_Shield002",
+										"Lion_Shield001",
+										"Lion_Shield",
+										"Lion_Head001",
+										"Lion_Head",
+										"Floor_Lower",
+										"Details_Window_A001",
+										"Details_Window_A",
+										"Details_Door_A001",
+										"Details_Door_A",
+										"Details_Door_B",
+										"Floor_Upper",
+										"BrickWall_A",
+										"BrickWall_B",
+										"BrickWall_C",
+										"BrickWall_D",
+										"BrickWall_E",
+										"BrickWall_F",
+										"BrickTrim_A",
+										"BrickTrim_B",
+										"Ceiling_Arches",
+										"Ceiling_Upper",
+										"Ceiling_Lower",
+									]
+								}
+							},
+						]
+						disabled = true
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "base1"
+						filename = "maps/Sponza_Modular.FBX"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Support_Roof",
+								"Support_Walls",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "roof.vmat"
+								to = "maps/sponza/materials/roof.vmat"
+							},
+							{
+								from = "bricks.vmat"
+								to = "maps/sponza/materials/bricks.vmat"
+							},
+							{
+								from = "curtain_blue.vmat"
+								to = "maps/sponza/materials/curtain_blue.vmat"
+							},
+							{
+								from = "curtain_green.vmat"
+								to = "maps/sponza/materials/curtain_green.vmat"
+							},
+							{
+								from = "curtain_red.vmat"
+								to = "maps/sponza/materials/curtain_red.vmat"
+							},
+							{
+								from = "fabric_round_blue.vmat"
+								to = "maps/sponza/materials/fabric_round_blue.vmat"
+							},
+							{
+								from = "fabric_round_green.vmat"
+								to = "maps/sponza/materials/fabric_round_green.vmat"
+							},
+							{
+								from = "fabric_round_red.vmat"
+								to = "maps/sponza/materials/fabric_round_red.vmat"
+							},
+							{
+								from = "arches.vmat"
+								to = "maps/sponza/materials/arches.vmat"
+							},
+							{
+								from = "ceiling.vmat"
+								to = "maps/sponza/materials/ceiling.vmat"
+							},
+							{
+								from = "column_a.vmat"
+								to = "maps/sponza/materials/column_a.vmat"
+							},
+							{
+								from = "column_b.vmat"
+								to = "maps/sponza/materials/column_b.vmat"
+							},
+							{
+								from = "column_c.vmat"
+								to = "maps/sponza/materials/column_c.vmat"
+							},
+							{
+								from = "flagpoles.vmat"
+								to = "maps/sponza/materials/flagpoles.vmat"
+							},
+							{
+								from = "vase_hanging.vmat"
+								to = "maps/sponza/materials/vase_hanging.vmat"
+							},
+							{
+								from = "vase_hanging_chain.vmat"
+								to = "maps/sponza/materials/vase_hanging_chain.vmat"
+							},
+							{
+								from = "vase_octagonal.vmat"
+								to = "maps/sponza/materials/vase_octagonal.vmat"
+							},
+							{
+								from = "vase_round.vmat"
+								to = "maps/sponza/materials/vase_round.vmat"
+							},
+							{
+								from = "vase_round_plants.vmat"
+								to = "maps/sponza/materials/vase_round_plants.vmat"
+							},
+							{
+								from = "ivy.vmat"
+								to = "maps/sponza/materials/ivy.vmat"
+							},
+							{
+								from = "floor.vmat"
+								to = "maps/sponza/materials/floor.vmat"
+							},
+							{
+								from = "lion_head.vmat"
+								to = "maps/sponza/materials/lion_head.vmat"
+							},
+							{
+								from = "lion_shield.vmat"
+								to = "maps/sponza/materials/lion_shield.vmat"
+							},
+							{
+								from = "details.vmat"
+								to = "maps/sponza/materials/details.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "Sponza_Modular"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "maps/Sponza_Modular.FBX"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.234
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Ivy_A",
+								"Ivy_C",
+								"Ivy_D",
+								"Ivy_E",
+								"Ivy_F",
+								"Ivy_G",
+								"Ivy_H",
+								"Ivy_I",
+								"Ivy_J",
+								"Ivy_K",
+								"Ivy_B",
+								"Vase_Round_Plants_A",
+								"Vase_Round_Plants_A001",
+								"Vase_Round_Plants_A002",
+								"Vase_Round_Plants_A003",
+								"Vase_Round_Plants_B001",
+								"Vase_Round_Plants_B002",
+								"Vase_Round_Plants_B003",
+								"Vase_Round_Plants_B",
+								"Fabric_Curtain_Red_00",
+								"Fabric_Curtain_Green_00",
+								"Fabric_Curtain_Blue_01",
+								"Fabric_Curtain_Green_02",
+								"Fabric_Curtain_Red_02",
+								"Fabric_Round_Green_01",
+								"Fabric_Round_Blue_00",
+								"Fabric_Round_Red_01",
+								"Fabric_Round_Green_00",
+								"Fabric_Round_Green_02",
+								"Fabric_Round_Blue_01",
+								"Fabric_Round_Green_03",
+								"Fabric_Curtain_Blue_00",
+								"Fabric_Curtain_Blue_02",
+								"Fabric_Curtain_Green_01",
+								"Fabric_Curtain_Red_03",
+								"Fabric_Curtain_Red_01",
+								"Fabric_Round_Red_00",
+								"Vase_Hanging_Chain001",
+								"Vase_Hanging_Chain002",
+								"Vase_Hanging_Chain003",
+								"Vase_Hanging_Chain",
+								"Column_C_Corner",
+								"Support_Walls",
+								"Support_Roof",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
